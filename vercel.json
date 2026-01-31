@@ -1,0 +1,7 @@
+{
+   "function": {
+     "api/*.py":{
+       "runtime": "python3.9"
+        }
+    ]
+}
