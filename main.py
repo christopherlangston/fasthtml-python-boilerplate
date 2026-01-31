@@ -67,7 +67,7 @@ async def contact(request: Request):
         resend.Emails.send({
             "from": os.environ["FROM_EMAIL"],
             "to": os.environ["TO_EMAIL"],
-            "subject": "New Contact Form Submission",
+            "subject": "New Contacdt Form Submission",
             "html": f"<p><strong>Email:</strong> {email}</p><p>{message}</p>"
         })
         return {"status": "sent"}
